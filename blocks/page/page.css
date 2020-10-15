@@ -1,5 +1,7 @@
 .page {
   max-width: 1280px;
   display: flex;
+  flex-direction: column;
   margin: auto;
+  justify-content: center;
 }

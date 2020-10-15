@@ -11,3 +11,5 @@
 @import url(../blocks/place/__info-title/place__info-title.css);
 @import url(../blocks/place/__info-paragraph/place__info-paragraph.css);
 @import url(../blocks/place/__info-paragraph-wrapper/place__info-paragraph-wrapper.css);
+
+@import url(../blocks/footer/footer.css);
