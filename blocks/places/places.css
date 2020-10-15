@@ -4,19 +4,27 @@
   max-width: 1280px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 534px);
+  grid-template-rows: repeat(3, 30%);
   object-fit: cover;
 }
-
+/*
 @media screen and (max-width: 1024px) {
   .places {
-    grid-template-rows: repeat(3, 440px);
+    grid-template-rows: repeat(3, 50vw);
+  }
+} */
+
+@media screen and (max-width: 800px) {
+  .places {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 100vw);
+
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .places {
     grid-template-columns: 100%;
     grid-template-rows: repeat(6, 640px);
   }
-}
+} */

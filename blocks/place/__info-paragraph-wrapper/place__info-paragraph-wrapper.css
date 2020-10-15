@@ -1,0 +1,14 @@
+.place__info-paragraph-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  margin: 0;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .place__info-paragraph-wrapper {
+    margin: 0 auto;
+  }
+}
