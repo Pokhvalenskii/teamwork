@@ -10,7 +10,8 @@
   display: flex;
   background-color: #fecda7;
   width: 100%;
-  height: 626px;
+  height: 56.25vw;
+  max-height: 626px;
   justify-content: center;
   align-items: center;
 }

@@ -12,4 +12,7 @@
 @import url(../blocks/place/__info-paragraph/place__info-paragraph.css);
 @import url(../blocks/place/__info-paragraph-wrapper/place__info-paragraph-wrapper.css);
 
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+
 @import url(../blocks/footer/footer.css);
