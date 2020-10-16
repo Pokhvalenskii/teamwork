@@ -1,3 +1,17 @@
 .route-form__textarea {
   display: block;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border: none;
+  width: 100%;
+  max-width: 343px;
+  height: 100px;
+  resize: none;
+}
+
+@media screen and (max-width: 450px) {
+  .route-form__textarea {
+    max-width: 280px;
+    margin: 0 auto 20px;
+  }
 }

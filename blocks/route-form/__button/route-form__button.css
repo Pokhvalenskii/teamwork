@@ -1,3 +1,24 @@
 .route-form__button {
   display: block;
+  align-self: flex-end;
+  width: 53%;
+  height: 30px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  text-decoration: none;  
+
+  /* font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.04em; */
+}
+
+@media screen and (max-width: 450px) {
+  .route-form__button{
+    align-self: center ;
+  }
 }

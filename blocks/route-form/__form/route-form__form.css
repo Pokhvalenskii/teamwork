@@ -1,3 +1,17 @@
-.route-form__forms {
+.route-form__form {
   display: flex;
+  flex-direction: column;
+  width: 360px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.04em;
+  
+  /* border: deeppink 1px solid; */
+}
+
+@media screen and (max-width: 450px) {
+  .route-form__form {
+    text-align: center;
+  }
 }
