@@ -1,0 +1,6 @@
+.intro {
+  width: calc(100% - 140px);
+  margin: 88px auto 140px;
+  display: flex;
+  /* margin-bottom: 140px; */
+}
