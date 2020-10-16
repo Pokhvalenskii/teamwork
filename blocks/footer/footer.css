@@ -12,6 +12,13 @@
   width: 100%;
   height: 56.25vw;
   max-height: 626px;
+  margin-top: -5px;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    font-size: 20px;
+  }
 }

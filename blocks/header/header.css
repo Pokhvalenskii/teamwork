@@ -1,30 +1,26 @@
-.intro {
-  width: calc(100% - 140px);
-  margin: 88px auto 140px;
+.header {
   display: flex;
-  /* margin-bottom: 140px; */
+  width: calc(100% - 140px);
+  margin: 50px auto 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .intro {
+  .header {
     width: calc(100% - 80px);
-    margin: 88px auto 88px;
 
   }
 }
 
 @media screen and (max-width: 800px) {
-  .intro {
+  .header {
     width: calc(100% - 40px);
-    flex-direction: column;
-    align-items: center;
 
   }
 }
 
 @media screen and (max-width: 450px) {
-  .intro {
+  .header {
     width: calc(100% - 16px);
-    margin: 60px auto 60px;
+    margin: 20px auto 100px;
   }
 }

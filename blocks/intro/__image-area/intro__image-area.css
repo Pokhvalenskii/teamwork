@@ -3,3 +3,9 @@
   justify-content: flex-end;
   width: 50%;
 }
+
+@media screen and (max-width: 800px) {
+  .intro__image-area {
+    width: 100%;
+  }
+}

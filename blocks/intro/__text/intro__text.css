@@ -1,0 +1,16 @@
+.intro__text {
+  font-family: 'Open sans', 'Arial', sans-serif;
+  font-style:  normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  letter-spacing: -0.02em;
+  max-width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .intro__text {
+    font-size: 24px;
+  }
+}

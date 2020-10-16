@@ -7,7 +7,17 @@
   color: #fff;
   background-color: #000;
   text-align: center;
-  text-decoration: none;  
+  text-decoration: none;
+  font-family: 'Open sans', 'Arial', sans-serif;
+  font-style:  normal;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.route-form__button:hover {
+  transition: .6s ease-in-out;
+  background-color: #fed0ad;
+  color: black;
 }
 
 @media screen and (max-width: 450px) {
@@ -15,3 +25,5 @@
     align-self: center ;
   }
 }
+
+

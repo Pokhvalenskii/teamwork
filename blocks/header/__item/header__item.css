@@ -1,0 +1,31 @@
+.header__item {
+  margin-right: 32px;
+  font-family: 'Open sans', 'Arial', sans-serif;
+  font-style:  normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: black;
+}
+
+.header__item:last-of-type {
+  margin-right: 0;
+}
+
+.header__item:hover {
+  transition: .2s ease-in-out;
+  color: #fed0ad;
+}
+
+@media screen and (max-width: 450px) {
+  .header__item {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .header__item:last-of-type {
+    margin-bottom: 0;
+  }
+}
