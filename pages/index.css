@@ -21,10 +21,13 @@
 @import url(../blocks/route-form/__wrapper/route-form__wrapper.css);
 @import url(../blocks/route-form/__title/route-form__title.css);
 
-
-
-
-
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__grid/people__grid.css);
+@import url(../blocks/people/__item-subtitle/people__item-subtitle.css);
+@import url(../blocks/people/__item-title/people__item-title.css);
+@import url(../blocks/people/__item/people__item.css);
+@import url(../blocks/people/__subtitle/people__subtitle.css);
+@import url(../blocks/people/__title/people__title.css);
 
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);

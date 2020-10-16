@@ -1,0 +1,21 @@
+.people__subtitle {
+  font-family: 'Open sans', 'Arial', sans-serif;
+  font-style:  normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  letter-spacing: -0.02em;
+  max-width: 420px;
+  height: 80px;
+
+  margin: 30px 0 80px 0;
+  
+}
+
+@media screen and (max-width: 450px) {
+  .people__subtitle {
+    font-size: 24px;
+    margin: 20px 0 30px 0;
+
+  }
+}

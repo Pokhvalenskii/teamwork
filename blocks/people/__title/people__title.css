@@ -1,0 +1,10 @@
+.people__title {
+  font-family: 'Open sans', 'Arial', sans-serif;
+  font-style:  normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #fed0ad;
+  margin: 0;
+}
