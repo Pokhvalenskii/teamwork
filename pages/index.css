@@ -12,6 +12,15 @@
 @import url(../blocks/place/__info-paragraph/place__info-paragraph.css);
 @import url(../blocks/place/__info-paragraph-wrapper/place__info-paragraph-wrapper.css);
 
+@import url(../blocks/route-form/route-form.css);
+@import url(../blocks/route-form/__wrapper/route-form__wrapper.css);
+@import url(../blocks/route-form/__forms/route-form__forms.css);
+@import url(../blocks/route-form/__image/route-form__image.css);
+@import url(../blocks/route-form/__form/route-form__form.css);
+@import url(../blocks/route-form/__text/route-form__text.css);
+@import url(../blocks/route-form/__button/route-form__button.css);
+@import url(../blocks/route-form/__textarea/route-form__textarea.css);
+
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
 

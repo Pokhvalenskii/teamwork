@@ -1,0 +1,4 @@
+.route-form__image {
+  width: 50%;
+  object-fit: cover;
+}
