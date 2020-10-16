@@ -1,18 +1,18 @@
 .places {
   /* border: firebrick dashed 2px; */
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1280px;  
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 30%);
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, minmax(640px, 640px));
   object-fit: cover;
 }
-/*
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1280px) {
   .places {
     grid-template-rows: repeat(3, 50vw);
   }
-} */
+}
 
 @media screen and (max-width: 800px) {
   .places {
