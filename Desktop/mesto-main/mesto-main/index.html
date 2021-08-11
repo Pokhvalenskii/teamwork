@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+</head>
+<body class="root">
+  <header class="header">
+    <img class="header__logo" src="./image/mesto-logo.svg" alt="Mesto">
+  </header>
+  <main>
+    <section class="profile">
+      <div class="profile__container">
+        <img src="./image/profile-avatar.png" alt="Аватар" class="profile__avatar-img">
+        <div class="profile__biography">
+          <div class="profile__info">
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <p class="profile__caption">Исследователь океана</p>
+          </div>
+          <button type="button" class="profile__edit-btn" aria-label="Edit"></button>
+        </div>
+      </div>
+      <button type="button" class="profile__add-btn" aria-label="Add"></button>
+    </section>
+
+    <section class="gallery">
+    </section> 
+
+  </main>
+  <footer class="footer">
+    <p class="footer__author">&copy; 2021 Mesto Russia</p>
+  </footer>
+  <div class="popup">
+    <div class="popup__container">
+      <form class="form" name="profileEditForm">
+        <h3 class="form__heading">Редактировать профиль</h3>
+        <fieldset class="form__input-container">
+          <input class="form__item form__item_type_title" type="text" id="profile-name" placeholder="Имя" name="name"
+            required>
+          <input class="form__item form__item_type_subtitle" type="text" id="profile-caption" placeholder="Подпись"
+            name="about" required>
+          <button type="submit" class="form__save-btn">Сохранить</button>
+        </fieldset>
+      </form>
+      <button type="button" class="popup__close-btn popup__close-btn_place_profile" aria-label="Close"></button>
+    </div>
+  </div>
+
+  <div class="popup popup-card">
+    <div class="popup__container">
+      <form class="form form_place_card" name="createCardForm" method="POST" action="#">
+        <h3 class="form__heading">Новое место</h3>
+        <fieldset class="form__input-container">
+          <input class="form__item form__item_type_card-title" type="text" id="card-name" placeholder="Название" name="name"
+            required>
+          <input class="form__item form__item_type_card-subtitle" type="url" id="card-link" placeholder="Ссылка на картинку"
+            name="link" required>
+          <button type="submit" class="form__save-btn form__save-btn_place_gallery">Сохранить</button>
+        </fieldset>
+      </form>
+      <button type="button" class="popup__close-btn popup__close-btn_place_gallery" aria-label="Close"></button>
+    </div>
+  </div>
+
+  <div class="popup popup-image">
+    <div class="popup-image__container">
+      <img src="" alt="" class="popup-image__img">
+      <h3 class="form__heading form__heading_place_card"></h3>
+      <button type="button" class="popup__close-btn popup__close-btn_place_image" aria-label="Close"></button>
+    </div>
+  </div>
+
+  <template id="gallery">
+    <li class="gallery__card-item">
+      <img alt="Фотография" class="gallery__card-image">
+      <button type="button" class="gallery__remove-btn" aria-label="Delete"></button>
+      <div class="gallery__card-description">
+        <h2 class="gallery__card-name"></h2>
+        <button type="button" class="gallery__like-btn" aria-label="Like"></button>
+      </div>
+    </li>        
+</template>
+
+  <script src="./scripts/popup.js"></script>
+</body>
+
+</html>

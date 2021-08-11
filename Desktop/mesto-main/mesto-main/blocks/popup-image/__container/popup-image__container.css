@@ -1,0 +1,15 @@
+.popup-image__container {
+        max-width: 75vw;
+        max-height: 75vh;
+        position: relative;
+        box-sizing: border-box;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    @media screen and (max-width: 540px) {
+        .popup-image__container {
+            width: calc(100% - 60px);
+        }
+    }

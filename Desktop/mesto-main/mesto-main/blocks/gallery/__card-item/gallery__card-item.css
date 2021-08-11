@@ -1,0 +1,9 @@
+.gallery__card-item {
+  position: relative;
+  min-width: 282px;
+  max-width: 282px;
+  border-radius: 10px;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #fff;
+}

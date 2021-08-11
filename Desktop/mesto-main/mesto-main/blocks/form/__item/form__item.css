@@ -1,0 +1,19 @@
+.form__item {
+  margin-bottom: 30px;
+  padding-bottom: 13px;
+  width: 348px;
+  height: 14px;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+@media (max-width: 880px) {
+  .form__item {
+    width: 238px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

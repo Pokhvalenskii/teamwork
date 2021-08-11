@@ -1,0 +1,21 @@
+.gallery__remove-btn {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  width: 18px;
+  height: 20px;
+  color: #fff;
+  background: url(../../../image/trash-icon.svg) center no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.gallery__remove-btn:focus {
+    opacity: 0.6;
+}
+
+.gallery__remove-btn:hover {
+    opacity: 0.6;
+}
